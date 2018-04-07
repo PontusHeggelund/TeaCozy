@@ -1,0 +1,105 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Helvetica;
+  /* font-size: 22px; */
+  color: seashell;
+  background-color: black;
+}
+
+/* Header section */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  z-index: 5;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+.top_menu {
+  margin-right: 10px;
+}
+
+.top_menu a {
+  margin-left: 20px;
+  text-decoration: underline;
+  font-size: 22px;
+}
+
+/* Common for all sections */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 69px;
+  opacity: 0.9;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+/* The Our Mission section */
+
+.mission {
+  height: 600px;
+  width: 1200px;
+  background-image:
+  url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+}
+
+.mission-textbox {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 22px; /*Why do I need to specify this here, and why does it apply only to the h4 heading? */
+  padding: 10px;
+}
+
+/* The Monthly Tea offering section */
+
+.monthly-tea {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin-top: 70px;
+  font-size: 22px; /*Why do I need to specify this here, and why does it apply only to the h4 heading? */
+}
+
+.monthly-tea h2 {
+  margin-bottom: 15px;
+}
+
+.monthly_product_collection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.product-box {
+  margin: 15px;
+}
+
+.product-box img {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
