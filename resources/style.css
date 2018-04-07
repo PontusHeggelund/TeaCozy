@@ -3,7 +3,7 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: Helvetica;
-  /* font-size: 22px; */
+  /* font-size: 22px; If I turn this on, the texts become small, why's that??*/
   color: seashell;
   background-color: black;
 }
@@ -102,4 +102,43 @@ header {
   height: 200px;
   width: 300px;
   margin-bottom: 10px;
+}
+
+/* Locations section */
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image:
+  url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+  background-position: center;
+  height: 500px;
+  width: 1200px;
+  font-size: 22px;
+  margin-top: 70px;
+}
+
+.all_locations {
+  display: flex;
+  justify-content: center;
+}
+
+.location-box {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 15px 20px;
+  opacity: 1;
+
+}
+
+/* Contact section */
+
+.contact {
+  height: 200px;
+  
 }
