@@ -139,6 +139,16 @@ header {
 /* Contact section */
 
 .contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   height: 200px;
-  
+  font-size: 22px; /* Why do I need tp add 22px here to make the fonr size work as it should?? Both h5 and 52 get's proportionallt bigger by this. But not 22px as I'd expect */
+  margin-bottom: 50px;
+
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
 }
